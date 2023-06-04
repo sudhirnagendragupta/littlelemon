@@ -1,0 +1,4 @@
+Django superuser
+username: admin
+password: lemon123!
+email: admin@littlelemon.com
