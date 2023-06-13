@@ -1,5 +1,0 @@
-Django superuser
-username: admin
-password: lemon123!
-email: admin@littlelemon.com
-"token": "4dbdbccfefb7b728424d4f87414244559c08817b"

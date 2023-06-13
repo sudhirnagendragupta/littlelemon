@@ -22,16 +22,16 @@ class MenuViewTest(TestCase):
         self.client.login(username='testuser', password='testpassword')
     
     def test_view_authentication(self) -> None:
-        response = self.client.get(reverse('menu'))
+        response = self.client.get(reverse('menuapi'))
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
         self.loginAsTestUser()
-        response = self.client.get(reverse('menu'))
+        response = self.client.get(reverse('menuapi'))
         self.assertEqual(response.status_code, status.HTTP_200_OK)
     
     def test_getall(self):
         self.loginAsTestUser()
-        response = self.client.get(reverse('menu'))
+        response = self.client.get(reverse('menuapi'))
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         
         menu = Menu.objects.all()
