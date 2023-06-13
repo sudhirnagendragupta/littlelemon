@@ -29,7 +29,7 @@ restaurant/booking_api/tables/
 For user registration
 /auth/token/login/     # To create the token. You need to be logged in as superuser to access this route
 /auth/users/           # To register a new user. You need to be logged in as superuser to access this route
-/api-token-auth/       # Make a post call to this route with username and password to get the token
+restaurant/api-token-auth/       # Make a post call to this route with username and password to get the token
 
 For running the tests
 Pagination has been commented in the settings files to enable to run the tests. 
