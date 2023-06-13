@@ -1,9 +1,16 @@
+This project has been completed as part of the capstone project for the course 
+titled 'Back-end Developer Capstone' created by Meta in association with Coursera.
+It was indeed a great learning experience and I am thankful to Meta and Coursera for creating 
+this meaningful learning experience.
+
 Django superuser: This will be your superuser as the one I created has been
 registered in my MySql database. You can create your own superuser by running the following command in the terminal:
 python3 manage.py createsuperuser
 
 
 Restaurant home: http://127.0.0.1:8000/restaurant/
+
+Github link: https://github.com/sudhirnagendragupta/littlelemon
 
 Please check the model schema to understand what fields are needed. Hopefully you are
 using the same field names in the MySql tables that you have created.
