@@ -8,7 +8,7 @@ django = "*"
 djangorestframework = "*"
 pymysql = "*"
 mysqlclient = "*"
-djoser = "*"
+djoser = ">=2.3.0"
 
 [dev-packages]
 
